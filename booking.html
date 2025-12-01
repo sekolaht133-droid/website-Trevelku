@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelKu - Jelajahi Dunia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">TravelKu</a>
+            <ul class="nav-links">
+                <li><a href="beranda.html">Beranda</a></li>
+                <li><a href="destinasi.html">Destinasi</a></li>
+                <li><a href="pakettur.html">Paket Tour</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+                <a href="login.html" class="btn-logout">Logout</a>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div style="max-width: 600px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <h1 style="text-align: center;">Formulir Pemesanan</h1>
+        <p style="text-align: center;">Isi data diri Anda untuk memulai perjalanan.</p>
+        
+        <form>
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Nama sesuai KTP">
+            
+            <label>Pilih Paket Destinasi</label>
+            <select>
+                <option>Tahiland</option>
+                <option>Jepang</option>
+                <option>Korea</option>
+                <option>Paris</option>
+                <option>Bali</option>
+                <option>Raja Ampat</option>
+                <option>Yogyakarta</option>
+            </select>
+            
+            <label>Tanggal Keberangkatan</label>
+            <input type="date">
+            
+            <label>Jumlah Peserta</label>
+            <input type="number" min="1" placeholder="Contoh: 2">
+            
+            <button type="submit" class="btn" style="width: 100%;">Konfirmasi Pemesanan</button>
+        </form>
+    </div>
+</main>
